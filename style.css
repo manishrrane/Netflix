@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    background:#141414;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:black;
+    padding:15px 30px;
+}
+
+.logo{
+    color:red;
+    font-size:35px;
+    font-weight:bold;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.banner{
+    height:500px;
+    background-image:url("images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    padding-left:50px;
+}
+
+.banner-text h1{
+    font-size:50px;
+}
+
+.btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.section{
+    padding:30px;
+}
+
+.movies{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
